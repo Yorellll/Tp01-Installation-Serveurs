@@ -3,7 +3,10 @@
 ## 2 Post Installation
 
 ### 2.1 Configuration SSH
-Cette étape commence simplement par l'installation de SSH via 
+Cette étape commence simplement par l'installation de SSH via la commande __apt install ssh__ qui installe tout le package SSH. On a ensuite modifier le fichier sshd_config pour permettre le configuration via le compte root. On a ensuite restart SSH afin qu'il reload et prenne en compte les changements fait sur le fichier de config.
+
+### 2.2 
+On peut maintenant tester la connexion vie la machine hote en utilisant __ping__ ainsi que l'adresse ip du serveur,si la machine répond bien, on peut enfin on se connecte à celui ci. 
 
 ### 2.5 Les commandes
 La commande __echo $LANG__ permet de voir la langue local utilisé par défault de la machine.
